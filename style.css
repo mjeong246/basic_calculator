@@ -1,0 +1,52 @@
+.calculatorContainer {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 800px;
+    border: solid;
+    background-color:black;
+}
+
+.display {
+    flex-grow: 1;
+    border: solid;
+    color:white;
+    text-align:right;
+    font-size:32px;
+    padding:10px;
+    margin: 10px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-grow: 5;
+    padding: 10px;
+}
+
+.leftPad {
+    flex-grow: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonRow {
+    flex-grow: 1;
+    display:flex;
+}
+
+.rightPad {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.num {
+    background-color: blue;
+}
+
+button {
+    flex-grow: 1;
+    flex-basis: 0;
+    margin: 5px;
+    font-size:32px;
+}
